@@ -1,0 +1,14 @@
+[project]
+name = "options-hedging"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.4.0",
+    "pandas>=2.3.3",
+    "plotly>=6.5.0",
+    "pyarrow>=22.0.0",
+    "scipy>=1.16.3",
+    "streamlit>=1.52.2",
+]
