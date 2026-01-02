@@ -9,19 +9,7 @@ Implements dynamic hedging strategies used by investment banks and market makers
 - **Delta Hedging**: Neutralize first-order price risk using underlying shares
 - **Delta-Gamma Hedging**: Simultaneous delta and gamma neutrality using options and shares
 
-## Key Features
-
-- **Customizable Parameters**: Volatility mode (constant/implied), hedge frequency, transaction costs, date ranges
-- **Comprehensive Metrics**: P&L tracking, MSE analysis, Greeks evolution, transaction cost breakdown
-- **Interactive Visualizations**: Portfolio dynamics, hedge ratios, underlying price movements
-- **Data Export**: Complete time series results exportable as CSV
-- **Extensible Framework**: Add custom strategies in `strategies.py`, integrate new data via `market_2023/` folder
-
 ## Dashboard
-
-**Configuration Panel**
-
-![Configuration Panel](misc/hedge_dashboard_config.png)
 
 **Summary Metrics**
 
@@ -39,11 +27,23 @@ Implements dynamic hedging strategies used by investment banks and market makers
 
 ![Export Table](misc/hedge_dashboard_sh3.png)
 
+**Configuration Panel**
+
+![Configuration Panel](misc/hedge_dashboard_config.png)
+
+## Key Features
+
+- **Customizable Parameters**: Volatility mode (constant/implied), hedge frequency, transaction costs, date ranges
+- **Comprehensive Metrics**: P&L tracking, MSE analysis, Greeks evolution, transaction cost breakdown
+- **Interactive Visualizations**: Portfolio dynamics, hedge ratios, underlying price movements
+- **Data Export**: Complete time series results exportable as CSV
+- **Extensible Framework**: Add custom strategies in `strategies.py`, integrate new data via `market_2023/` folder
+
 ## Quick Start
 
 ```bash
 # Install dependencies
-pip install -r requirements.txt
+uv sync
 
 # Run dashboard
 streamlit run app/main.py
