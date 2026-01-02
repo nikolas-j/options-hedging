@@ -21,23 +21,23 @@ Implements dynamic hedging strategies used by investment banks and market makers
 
 **Configuration Panel**
 
-![Configuration Panel](misc/_config.png)
+![Configuration Panel](misc/hedge_dashboard_config.png)
 
 **Summary Metrics**
 
-![Summary Metrics](misc/0.png)
+![Summary Metrics](misc/hedge_dashboard_sh0.png)
 
 **Performance Analysis**
 
-![Underlying & Performance](misc/01.png)
+![Underlying & Performance](misc/hedge_dashboard_sh1.png)
 
 **Advanced Analytics**
 
-![Additional Charts](misc/02.png)
+![Additional Charts](misc/hedge_dashboard_sh2.png)
 
 **Results Export**
 
-![Export Table](misc/03.png)
+![Export Table](misc/hedge_dashboard_sh3.png)
 
 ## Quick Start
 
