@@ -4,7 +4,7 @@ A **Delta and Delta-Gamma hedging simulation tool** for S&P 500 ETF call options
 
 ## Overview
 
-Implements dynamic hedging strategies used by investment banks and market makers to manage derivatives exposure:
+Implements dynamic hedging strategies used by investment banks and market makers to manage derivatives exposure. Built on the **Black-Scholes model** for option pricing and Greeks calculation:
 
 - **Delta Hedging**: Neutralize first-order price risk using underlying shares
 - **Delta-Gamma Hedging**: Simultaneous delta and gamma neutrality using options and shares
