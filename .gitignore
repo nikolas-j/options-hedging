@@ -4,3 +4,5 @@ __pycache__/
 data_fetch/
 market_data/
 test_regimes/
+
+notebook/

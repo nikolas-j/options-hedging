@@ -62,8 +62,7 @@ options-hedging/
 │   ├── runner.py            # Execution wrappers
 │   ├── data_loader.py       # Data management
 │   └── visualizations.py    # Plotly charts
-├── market_2023/             # Option data (12 maturities)
-└── notebook/                # Jupyter analysis
+└── market_2023/             # Option data (12 maturities)
 ```
 
 ## Use Cases
